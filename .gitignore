@@ -1,0 +1,40 @@
+# macOS 系統檔
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode / Derived data
+build/
+DerivedData/
+*.xccheckout
+*.xcuserstate
+*.xcscmblueprint
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/
+
+# CocoaPods（如果有用）
+Pods/
+*.xcworkspace
+
+# Carthage（如果有用）
+Carthage/Build/
+
+# fastlane（如果有用）
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Logs
+*.log
+
+# 不要把 DMG / ZIP 安裝檔放進 git 歷史
+*.dmg
+*.pkg
+*.zip
+
+# 其他你不想進版本控制的檔案，加在這裡
